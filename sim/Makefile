@@ -2,8 +2,8 @@
 # Define variables
 #========================
 TESTNAME ?= tb
-TB_NAME  ?= compare_tb_1.v
-TB_MODULE ?= compare_tb_1
+TB_NAME  ?= mscan_tb.v
+TB_MODULE ?= mscan_tb
 RADIX    ?= hexadecimal
 SEED     ?= 1
 QUESTA_HOME ?= D:/QuetaSim#đổi lại đường dẫn thư viện để chạy
