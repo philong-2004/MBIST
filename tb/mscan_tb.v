@@ -9,7 +9,7 @@ module mscan_tb();
 
     wire [7:0] data_OUT;
     wire [7:0] W_addr;
-wrapMbist dut (
+topMbist dut (
     .CLK(CLK),
     .nRESET(nRESET),
     .algr_en(algr_en),
